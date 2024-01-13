@@ -1,0 +1,73 @@
+QWidget{
+    background-color: rgb(255, 255, 255);
+}
+
+QPushButton#bfs_solve_button,#dfs_solve_button,#preSet_button_1,#preSet_button_2,#reset_button{
+	background-color: rgb(62, 89, 114);
+	color: rgb(255, 255, 255);
+	border-radius:12px;
+}
+
+#bfs_solve_button:hover, #dfs_solve_button:hover, #preSet_button_1:hover, #preSet_button_2:hover, #reset_button:hover{
+    background-color: #527fa9;
+}
+
+#bfs_solve_button:pressed, #dfs_solve_button:pressed, #preSet_button_1:pressed, #preSet_button_2:pressed, #reset_button:pressed{
+    background-color: #204d77;
+}
+
+QPushButton#button_0,
+           #button_1,
+           #button_2,
+           #button_3,
+           #button_4,
+           #button_5,
+           #button_6,
+           #button_7,
+           #button_8,
+           #button_9,
+           #button_10,
+           #button_11,
+           #button_12,
+           #button_13,
+           #button_14,
+           #button_15,
+           #button_16,
+           #button_17,
+           #button_18,
+           #button_19,
+           #button_20,
+           #button_21,
+           #button_22,
+           #button_23
+{
+    color: rgba(0,0,0,0);
+    background-color: rgb(119, 119, 119);
+    border-radius:5px;
+    border:2px solid black;
+}
+
+
+QGroupBox{
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(226, 226, 226);
+    border-radius:12px;
+    margin-top:1ex;
+}
+
+QGroupBox:title{
+    position: relative;
+    subcontrol-origin: margin;
+    left:10px;
+}
+
+QTextEdit#bfs_result_text,#dfs_result_text,#textEdit{
+    background-color: rgb(255, 255, 255);
+    border:1px solid rgb(143, 143, 143);
+    border-radius:12px;
+    font: 17px;
+}
+
+QLabel {
+    background-color: rgb(255, 255, 255);
+}
